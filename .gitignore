@@ -1,0 +1,66 @@
+# Derleme sırasında oluşturulan ikili dosyalar
+*.o
+*.out
+*.exe
+
+# Derleme sırasında oluşturulan dizinler
+/build/
+/bin/
+/Debug/
+/Release/
+
+# CMake geçici dosyaları
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Otomatik oluşturulan derleyici dosyaları
+*.dSYM/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.res
+*.tlog
+
+# Paket yöneticisi tarafından oluşturulan dosyalar (örn: Visual Studio Code)
+.vscode/
+*.code-workspace
+
+# Geçici dosyalar
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+
+# GCC/Clang otomatik dosyaları
+*.gcno
+*.gcda
+*.gcov
+
+# IDE ve Proje dosyaları (örn: CLion, Code::Blocks, Visual Studio)
+.idea/
+*.cbp
+*.layout
+*.depend
+*.project
+*.cproject
+*.user
+*.opensdf
+*.suo
+*.VC.db
+*.VC.opendb
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Linux ve Unix sistem dosyaları
+*.swp
+*~
+
+# Windows sistem dosyaları
+Thumbs.db
+desktop.ini
